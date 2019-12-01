@@ -1,2 +1,74 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+
+figure + p{
+	text-indent: 0;
+}
+
+figure{
+	page-break-inside: avoid;
+	margin: 1em 0;
+	max-height: 100%;
+	text-align: center;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	page-break-after: avoid;
+}
+
+figcaption{
+	font-style: italic;
+	font-size: .75em;
+	margin: 1em;
+	page-break-before: avoid;
+}
+
+figure.full-page{
+	margin: 0;
+	max-height: 100%;
+	page-break-before: always;
+	page-break-after: always;
+	page-break-inside: avoid;
+	text-align: center;
+}
+
+[epub|type~="loi"] cite{
+	font-style: italic;
+	display: block;
+}
+
+p[epub|type~="se:diary.dateline"]{
+	text-align: right;
+}
+
+[epub|type~="z3998:diary-entry"] p[epub|type~="se:diary.dateline"] + p,
+figure + p{
+	text-indent: 0;
+}
+
+section[epub|type~="z3998:diary"].no-header{
+	margin: 1em;
+}
+
+article[epub|type~="z3998:diary-entry"] + article[epub|type~="z3998:diary-entry"]::before,
+section[epub|type~="z3998:diary"] + *::before{
+	border-top: 1px solid;
+	content: "";
+	display: block;
+	height: 0;
+	margin: 1.5em auto;
+	width: 25%;
+}
+
+section[epub|type~="z3998:diary"]{
+	margin-left: 1em;
+	margin-right: 1em;
+}
