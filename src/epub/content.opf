@@ -43,9 +43,9 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh85122367</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">In 1869, John Muir spent a summer in the Sierra Nevada Mountains of California helping to look after a flock of sheep. The diary entries and sketches he kept during that summer are the bases for this book My First Summer in the Sierra, first published in 1911.</dc:description>
+		<dc:description id="description">&lt;i&gt;My First Summer in the Sierra&lt;i&gt; is a collection of journal entries and pencil sketches recorded by Scottish-American naturalist John Muir during the summer of 1869, when he accompanied several men and a flock of sheep to the high country that surrounds the headwaters of the Merced and Tuoloumne rivers.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;In 1869, Scottish-American naturalist and author John Muir spent a summer in the Sierra Nevada Mountains of California helping to look after a flock of sheep. During that time, he kept diary entries and sketches that described his observations, adventures, and wonder in the midst of the spectacular scenery, fauna, and flora that surrounded him. The book My First Summer in the Sierra, first published in 1911, is today among the author's most popular works.&lt;/p&gt;
+			&lt;p&gt;In the summer of 1869, Scottish-American naturalist and author John Muir spent the months of June through September in the Sierra Nevada Mountains of California accompanying a group of men while they looked after a flock of sheep. During that time, Muir explored the region extensively—hiking, camping, writing, and sketching. Muir’s diary entries describing the land, flora, and fauna he encountered became the basis for the book &lt;i&gt;My First Summer in the Sierra&lt;/i&gt;, first published in 1911.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/32540</dc:source>
