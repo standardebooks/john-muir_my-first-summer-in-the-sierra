@@ -6,31 +6,7 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-figure + p{
-	text-indent: 0;
-}
-
-figure{
-	page-break-inside: avoid;
-	margin: 1em 0;
-	max-height: 100%;
-	text-align: center;
-}
-
-figure img{
-	display: block;
-	margin: auto;
-	max-width: 100%;
-	page-break-after: avoid;
-}
-
-figcaption{
-	font-style: italic;
-	font-size: .75em;
-	margin: 1em;
-	page-break-before: avoid;
-}
-
+/* If the image is meant to be on its own page, use this selector... */
 figure.full-page{
 	margin: 0;
 	max-height: 100%;
@@ -38,6 +14,29 @@ figure.full-page{
 	page-break-after: always;
 	page-break-inside: avoid;
 	text-align: center;
+}
+
+/* If the image is meant to be inline with the text, use this selector... */
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+
+/* In all cases, also include the below styles */
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure + p{
+	text-indent: 0;
+}
+
+figcaption{
+	font-size: .75em;
+	font-style: italic;
+	margin: 1em;
 }
 
 [epub|type~="loi"] cite{
