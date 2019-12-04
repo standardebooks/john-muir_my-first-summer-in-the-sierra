@@ -49,6 +49,7 @@
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/32540</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/007668397</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
