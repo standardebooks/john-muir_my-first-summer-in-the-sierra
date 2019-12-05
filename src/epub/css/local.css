@@ -44,16 +44,18 @@ figcaption{
 	display: block;
 }
 
-p[epub|type~="se:diary.dateline"]{
+[epub|type~="se:diary.dateline"]{
 	text-align: right;
+	font-style: italic;
+	page-break-after: avoid;
 }
 
-[epub|type~="z3998:diary-entry"] p[epub|type~="se:diary.dateline"] + p,
+[epub|type~="se:diary.dateline"] + p,
 figure + p{
 	text-indent: 0;
 }
 
-section[epub|type~="z3998:diary"].no-header{
+[epub|type~="z3998:diary"]{
 	margin: 1em;
 }
 
@@ -65,9 +67,4 @@ section[epub|type~="z3998:diary"] + *::before{
 	height: 0;
 	margin: 1.5em auto;
 	width: 25%;
-}
-
-section[epub|type~="z3998:diary"]{
-	margin-left: 1em;
-	margin-right: 1em;
 }
