@@ -65,6 +65,20 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Albert_Bierstadt</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n50011230</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<dc:contributor id="photographer-1">Herbert W. Gleason</dc:contributor>
+		<meta property="file-as" refines="#photographer-1">Gleason, Herbert W.</meta>
+		<meta property="se:url.authority.nacoaf" refines="#photographer-1">http://id.loc.gov/authorities/names/n50033099</meta>
+		<meta property="role" refines="#photographer-1" scheme="marc:relators">pht</meta>
+		<dc:contributor id="photographer-2">Charles S. Olcott</dc:contributor>
+		<meta property="file-as" refines="#photographer-2">Olcott, Charles S.</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer-2">https://en.wikipedia.org/wiki/Charles_S._Olcott</meta>
+		<meta property="se:url.authority.nacoaf" refines="#photographer-2">https://id.loc.gov/authorities/names/nr94017193</meta>
+		<meta property="role" refines="#photographer-2" scheme="marc:relators">pht</meta>
+		<dc:contributor id="cartographer">United States Geological Society</dc:contributor>
+		<meta property="file-as" refines="#cartographer">United States Geological Society</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#cartographer">https://en.wikipedia.org/wiki/United_States_Geological_Survey</meta>
+		<meta property="se:url.authority.nacoaf" refines="#cartographer">https://id.loc.gov/authorities/names/n80092173</meta>
+		<meta property="role" refines="#cartographer" scheme="marc:relators">ctg</meta>
 		<dc:contributor id="transcriber-1">Jim Adcock</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Adcock, Jim</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
