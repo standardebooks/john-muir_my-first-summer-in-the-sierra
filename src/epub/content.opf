@@ -108,6 +108,7 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="css/se.css" id="se.css" media-type="text/css"/>
 		<item href="images/a-silver-fir.jpg" id="a-silver-fir.jpg" media-type="image/jpeg"/>
 		<item href="images/abies-magnifica.jpg" id="abies-magnifica.jpg" media-type="image/jpeg"/>
 		<item href="images/approach-of-dome-creek-to-yosemite.jpg" id="approach-of-dome-creek-to-yosemite.jpg" media-type="image/jpeg"/>
