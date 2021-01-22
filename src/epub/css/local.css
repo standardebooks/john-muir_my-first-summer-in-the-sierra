@@ -24,10 +24,6 @@ figure img{
 	max-width: 100%;
 }
 
-figure + p{
-	text-indent: 0;
-}
-
 figcaption{
 	font-size: .75em;
 	font-style: italic;
@@ -49,8 +45,7 @@ figcaption i{
 	break-after: avoid;
 }
 
-[epub|type~="se:diary.dateline"] + p,
-figure + p{
+[epub|type~="se:diary.dateline"] + p{
 	text-indent: 0;
 }
 
