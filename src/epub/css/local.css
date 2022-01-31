@@ -44,14 +44,14 @@ figcaption i{
 }
 
 [epub|type~="loi"] cite{
-	font-style: italic;
 	display: block;
+	font-style: italic;
 }
 
 [epub|type~="se:diary.dateline"]{
-	text-align: right;
-	font-style: italic;
 	break-after: avoid;
+	font-style: italic;
+	text-align: right;
 }
 
 [epub|type~="se:diary.dateline"] + p{
