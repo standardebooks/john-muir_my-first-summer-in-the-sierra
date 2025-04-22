@@ -54,7 +54,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/32540</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/007668397</dc:source>
-		<meta property="se:word-count">57859</meta>
+		<meta property="se:word-count">57860</meta>
 		<meta property="se:reading-ease.flesch">62.51</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-muir_my-first-summer-in-the-sierra</meta>
 		<dc:creator id="author">John Muir</dc:creator>
