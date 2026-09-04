@@ -32,9 +32,9 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">My First Summer in the Sierra</dc:title>
 		<meta property="file-as" refines="#title">My First Summer in the Sierra</meta>
-		<dc:subject id="subject-1">Naturalists -- United States -- Biography</dc:subject>
+		<dc:subject id="subject-1">Naturalists--United States--Biography</dc:subject>
 		<dc:subject id="subject-2">Muir, John, 1838-1914</dc:subject>
-		<dc:subject id="subject-3">Natural history -- Sierra Nevada (Calif. and Nev.)</dc:subject>
+		<dc:subject id="subject-3">Natural history--Sierra Nevada (Calif. and Nev.)</dc:subject>
 		<dc:subject id="subject-4">Sierra Nevada (Calif. and Nev.)</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008108331</meta>
